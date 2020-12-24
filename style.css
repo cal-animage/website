@@ -1,0 +1,40 @@
+body {
+    font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    word-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a {
+    margin: 0;
+    color: #1034A6;
+    transition: color .3s ease-in;
+}
+a:visited {
+    color: #1034A6;
+}
+a:hover, a:active {
+    color: #361354;
+}
+
+.container {
+    padding: 1rem;
+    max-width: 700px;
+}
+
+.accent {
+    color: #1034A6;
+}
